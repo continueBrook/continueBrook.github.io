@@ -1,21 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <style>
-    .img{
-        width: 100%;
-        height: 100%;
-    }
-    </style>
+  <title>HTML5 Create HTML5 Canvas JavaScript Drawing App Example</title>
+  <script type="text/javascript" src="code.js"></script>
+  <!--[if IE]><script type="text/javascript" src="excanvas.js"></script><![endif]-->
+  <script type="text/javascript" src="html5-canvas-drawing-app.js"></script>
 </head>
+
 <body>
-    <div>
-        <img src="img/pic.jpg" alt="" class="img">
-        <h1>小静静肚子不疼了</h1>
-    </div>
+  <div style="width:530px;margin:10px auto">
+    <div id="canvasDiv"></div>
+  </div>
+  <script type="text/javascript">
+    $(document).ready(function () {
+      prepareCanvas();
+    });
+  </script>
 </body>
+
 </html>
